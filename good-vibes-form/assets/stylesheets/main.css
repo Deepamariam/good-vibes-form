@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    width: 100%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Slabo 27px', serif;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    width: 94%;
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/04/attachment_116486210-e1586178471519.jpeg?auto=format&q=60&fit=max&w=930);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkmagenta;
+    font-weight: bolder;
+}
+
+
+.header-text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-size: 25px;
+}
+
+.header-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-size: 20px;
+    text-align: justify;
+    word-break: normal;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 14px;
+    margin-top: 1%;
+    color: deeppink;
+}
+
+.form-rows{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.row-1{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+}
+
+
+
+.field-row-1{
+    width: 48%;
+    
+    
+}
+
+.input-row-1{
+    width: 100%;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    
+}
+
+.row-2{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;   
+}
+
+.field-row-2{
+    width: 48%;
+    
+}
+
+.input-row-2{
+    width: 100%;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+}
+
+.row-3{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%; 
+}
+
+.field-row-3{
+    width: 48%;
+    
+}
+
+.input-row-3{
+    width: 100%;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+}
+
+.row-4{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%; 
+}
+
+.field-row-4{
+    width: 48%;
+    
+}
+
+
+.input-row-4{
+    width: 100%;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+}
+
+.query-row-1, .query-row-2, .query-row-3, .query-row-4, .query-row-5, .query-row-6, .query-row-7{
+    width: 48%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row-5{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%; 
+}
+
+.field-row-5{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.field-row5-item1, .field-row5-item2, .field-row5-item3, .field-row5-item4{
+    display: flex;
+    align-items: center;
+    padding: 2% 1% 2% 1%;
+    width: 98%;
+    color: dodgerblue;
+}
+
+.row-6{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+}
+
+.field-row-6{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.field-row6-item1, .field-row6-item2, .field-row6-item3, .field-row6-item4, .field-row6-item5{
+    display: flex;
+    align-items: center;
+    padding: 2% 1% 2% 1%;
+    width: 98%;
+    color: dodgerblue;
+}
+
+.row-7{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 3% 5% 3%;
+}
+
+.input-row-7{
+    width: 100%;
+    padding: 16% 0 16% 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: black solid;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+}
+
+.field-row-7{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    width: 100%;
+    /* padding: 2% 0 2% 0; */
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/04/attachment_116486210-e1586178471519.jpeg?auto=format&q=60&fit=max&w=930);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0 4% 0;
+    width: 100%;
+}
+
+.form-button{
+    font-size: 15px;
+    padding: 1%;
+    border-radius: 10px;
+    border: solid black;
+    font-family: 'Slabo 27px', serif;
+    color: deeppink;
+    background-color: dodgerblue;
+    font-weight: bolder;
+}
